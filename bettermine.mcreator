@@ -12,6 +12,55 @@
           "src/main/resources/assets/bettermine/models/item/nggyu.json"
         ]
       }
+    },
+    {
+      "name": "Cabbage0",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbage_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettermine/models/item/cabbage_0.json",
+          "src/main/java/net/mcreator/bettermine/block/Cabbage0Block.java",
+          "src/main/java/net/mcreator/bettermine/block/entity/Cabbage0BlockEntity.java",
+          "src/main/resources/assets/bettermine/blockstates/cabbage_0.json",
+          "src/main/resources/data/bettermine/loot_tables/blocks/cabbage_0.json",
+          "src/main/resources/assets/bettermine/models/block/cabbage_0.json"
+        ]
+      },
+      "path": "~/Cabbage/Block"
+    },
+    {
+      "name": "CabbageBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbage_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/procedures/CabbageBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cabbage/Procedures"
     }
   ],
   "variable_elements": [],
@@ -33,6 +82,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.bettermine.cabbage_0": "Cabbage Stage 0",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "subtitles.nggyu": ""
@@ -40,7 +90,33 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Cabbage",
+        "children": [
+          {
+            "name": "Block",
+            "children": []
+          },
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Item",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Tag",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bettermine",
