@@ -19,8 +19,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.bettermine.init.BettermineModSounds;
 import net.mcreator.bettermine.init.BettermineModItems;
-import net.mcreator.bettermine.init.BettermineModBlocks;
-import net.mcreator.bettermine.init.BettermineModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,8 +40,7 @@ public class BettermineMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BettermineModSounds.REGISTRY.register(bus);
-		BettermineModBlocks.REGISTRY.register(bus);
-		BettermineModBlockEntities.REGISTRY.register(bus);
+
 		BettermineModItems.REGISTRY.register(bus);
 
 		// Start of user code block mod init
