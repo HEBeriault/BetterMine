@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "bettermine:block/cabbage0",
+    "particle": "bettermine:block/cabbage0"
+  },
+  "render_type": "cutout"
+}
