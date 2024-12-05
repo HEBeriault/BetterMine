@@ -40,7 +40,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "HP",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bettermine",
