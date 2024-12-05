@@ -44,17 +44,19 @@
   },
   "workspaceSettings": {
     "modid": "bettermine",
-    "modName": "Bettermine",
+    "modName": "BetterMine",
     "version": "1.0.0",
-    "author": "bufka, MCreator",
+    "author": "Olek977 aka Bufka2011, Ghost7827 aka Ghost782, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
+    "modPicture": "abc123",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.bettermine"
   },
   "mcreatorVersion": 202400342716
