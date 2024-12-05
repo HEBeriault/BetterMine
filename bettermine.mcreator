@@ -1,11 +1,42 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Nggyu",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nggyu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/item/NggyuItem.java",
+          "src/main/resources/assets/bettermine/models/item/nggyu.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "nggyu",
+      "files": [
+        "jocofullinterview41"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Nggyu"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
+      "subtitles.nggyu": ""
+    }
   },
   "foldersRoot": {
     "name": "~",

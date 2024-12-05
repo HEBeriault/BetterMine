@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Never Gonna Give You Up",
+    "rarity": "EPIC",
+    "texture": "nggyu_disc",
+    "description": "Rick Astley - Never Gonna Give You Up",
+    "creativeTabs": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:nggyu"
+    },
+    "lengthInTicks": 4720,
+    "analogOutput": 15
+  }
+}
