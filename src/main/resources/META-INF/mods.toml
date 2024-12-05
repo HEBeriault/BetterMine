@@ -5,10 +5,11 @@ license="Not specified"
 [[mods]]
 modId="bettermine"
 version="1.0.0"
-displayName="Bettermine"
+displayName="BetterMine"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="bufka, MCreator"
+authors="Olek977 aka Bufka2011, Ghost7827 aka Ghost782, MCreator"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
