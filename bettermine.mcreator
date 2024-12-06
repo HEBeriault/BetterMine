@@ -108,6 +108,23 @@
         ]
       },
       "path": "~/Chips"
+    },
+    {
+      "name": "Cuttingtable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttingtable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/block/CuttingtableBlock.java",
+          "src/main/resources/data/bettermine/loot_tables/blocks/cuttingtable.json",
+          "src/main/resources/assets/bettermine/models/block/cuttingtable.json",
+          "src/main/resources/assets/bettermine/blockstates/cuttingtable.json",
+          "src/main/resources/assets/bettermine/models/item/cuttingtable.json"
+        ]
+      },
+      "path": "~/Crafting tables/Cutting table"
     }
   ],
   "variable_elements": [],
@@ -122,17 +139,18 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:Nggyu"
-    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Knife"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Nggyu"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "ru_ru": {
       "item.bettermine.knife": "Knife",
+      "block.bettermine.cuttingtable": "Cuttingtable",
       "item.bettermine.chipfried": "Chipfried",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
@@ -145,6 +163,7 @@
     },
     "en_us": {
       "item.bettermine.knife": "Knife",
+      "block.bettermine.cuttingtable": "Cuttingtable",
       "item.bettermine.chipfried": "Chipfried",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
@@ -170,6 +189,15 @@
       {
         "name": "GUI",
         "children": []
+      },
+      {
+        "name": "Crafting tables",
+        "children": [
+          {
+            "name": "Cutting table",
+            "children": []
+          }
+        ]
       }
     ]
   },
