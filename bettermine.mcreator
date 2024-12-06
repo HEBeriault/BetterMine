@@ -61,8 +61,8 @@
       "registry_name": "peeledpotato",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bettermine/item/PotatocleanItem.java",
-          "src/main/resources/assets/bettermine/models/item/peeledpotato.json"
+          "src/main/resources/assets/bettermine/models/item/peeledpotato.json",
+          "src/main/java/net/mcreator/bettermine/item/PotatocleanItem.java"
         ]
       },
       "path": "~/Chips"
@@ -75,8 +75,8 @@
       "registry_name": "chip",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bettermine/item/ChipItem.java",
-          "src/main/resources/assets/bettermine/models/item/chip.json"
+          "src/main/resources/assets/bettermine/models/item/chip.json",
+          "src/main/java/net/mcreator/bettermine/item/ChipItem.java"
         ]
       },
       "path": "~/Chips"
@@ -89,8 +89,8 @@
       "registry_name": "chipfried",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bettermine/item/ChipfriedItem.java",
-          "src/main/resources/assets/bettermine/models/item/chipfried.json"
+          "src/main/resources/assets/bettermine/models/item/chipfried.json",
+          "src/main/java/net/mcreator/bettermine/item/ChipfriedItem.java"
         ]
       },
       "path": "~/Chips"
@@ -103,8 +103,8 @@
       "registry_name": "peeler",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bettermine/models/item/peeler.json",
-          "src/main/java/net/mcreator/bettermine/item/PeelerItem.java"
+          "src/main/java/net/mcreator/bettermine/item/PeelerItem.java",
+          "src/main/resources/assets/bettermine/models/item/peeler.json"
         ]
       },
       "path": "~/Chips"
@@ -132,25 +132,25 @@
   "tab_element_order": {},
   "language_map": {
     "ru_ru": {
-      "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.chip": "Chip",
-      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
+      "item.bettermine.chipfried": "Chipfried",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "item.bettermine.chip": "Chip",
       "block.bettermine.abc_123": "ABC 1 2 3",
+      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
     },
     "en_us": {
-      "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.chip": "Chip",
-      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
+      "item.bettermine.chipfried": "Chipfried",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "item.bettermine.chip": "Chip",
       "block.bettermine.abc_123": "ABC 1 2 3",
+      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
@@ -165,6 +165,10 @@
       },
       {
         "name": "Chips",
+        "children": []
+      },
+      {
+        "name": "GUI",
         "children": []
       }
     ]
