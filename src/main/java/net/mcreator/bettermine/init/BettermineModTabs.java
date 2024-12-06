@@ -19,9 +19,7 @@ public class BettermineModTabs {
 	public static final RegistryObject<CreativeModeTab> BETTERMINETAB = REGISTRY.register("betterminetab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.bettermine.betterminetab")).icon(() -> new ItemStack(BettermineModBlocks.ABC_123.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(BettermineModItems.KNIFE.get());
-				tabData.accept(BettermineModItems.SHITTYPEELER.get());
 				tabData.accept(BettermineModItems.PEELER.get());
-				tabData.accept(BettermineModItems.PEELERUHD.get());
 			})
 
 					.build());

@@ -96,20 +96,6 @@
       "path": "~/Chips"
     },
     {
-      "name": "Shittypeeler",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shittypeeler",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/bettermine/item/ShittypeelerItem.java",
-          "src/main/resources/assets/bettermine/models/item/shittypeeler.json"
-        ]
-      },
-      "path": "~/Chips"
-    },
-    {
       "name": "Peeler",
       "type": "item",
       "compiles": true,
@@ -119,20 +105,6 @@
         "files": [
           "src/main/resources/assets/bettermine/models/item/peeler.json",
           "src/main/java/net/mcreator/bettermine/item/PeelerItem.java"
-        ]
-      },
-      "path": "~/Chips"
-    },
-    {
-      "name": "Peeleruhd",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "peeleruhd",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/bettermine/item/PeeleruhdItem.java",
-          "src/main/resources/assets/bettermine/models/item/peeleruhd.json"
         ]
       },
       "path": "~/Chips"
@@ -161,12 +133,10 @@
   "language_map": {
     "ru_ru": {
       "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.peeleruhd": "Peeler UHD",
       "item.bettermine.chip": "Chip",
       "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
       "item.bettermine.peeler": "Peeler",
-      "item.bettermine.shittypeeler": "Shitty peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
       "block.bettermine.abc_123": "ABC 1 2 3",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
@@ -175,12 +145,10 @@
     },
     "en_us": {
       "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.peeleruhd": "Peeler UHD",
       "item.bettermine.chip": "Chip",
       "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
       "item.bettermine.peeler": "Peeler",
-      "item.bettermine.shittypeeler": "Shitty peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
       "block.bettermine.abc_123": "ABC 1 2 3",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
