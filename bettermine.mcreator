@@ -12,6 +12,74 @@
           "src/main/resources/assets/bettermine/models/item/nggyu.json"
         ]
       }
+    },
+    {
+      "name": "ABC123",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abc_123",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettermine/models/item/abc_123.json",
+          "src/main/resources/assets/bettermine/blockstates/abc_123.json",
+          "src/main/resources/data/bettermine/loot_tables/blocks/abc_123.json",
+          "src/main/resources/assets/bettermine/models/block/abc_123.json",
+          "src/main/java/net/mcreator/bettermine/block/ABC123Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Betterminetab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betterminetab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettermine/models/item/knife.json",
+          "src/main/java/net/mcreator/bettermine/item/KnifeItem.java"
+        ]
+      },
+      "path": "~/Chips"
+    },
+    {
+      "name": "Potatoclean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peeledpotato",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/item/PotatocleanItem.java",
+          "src/main/resources/assets/bettermine/models/item/peeledpotato.json"
+        ]
+      },
+      "path": "~/Chips"
+    },
+    {
+      "name": "Peeler",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peeler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettermine/models/item/peeler.json",
+          "src/main/java/net/mcreator/bettermine/item/PeelerItem.java"
+        ]
+      },
+      "path": "~/Chips"
     }
   ],
   "variable_elements": [],
@@ -26,6 +94,9 @@
     }
   ],
   "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Knife"
+    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:Nggyu"
     ]
@@ -33,8 +104,13 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.bettermine.knife": "Knife",
+      "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "block.bettermine.abc_123": "ABC 1 2 3",
+      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
+      "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
     }
   },
