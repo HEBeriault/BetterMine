@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "peeler",
+    "texture": "shitty_peeler",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Peeler",
+    "name": "Shittypeeler",
     "rarity": "COMMON",
     "creativeTabs": [
       {

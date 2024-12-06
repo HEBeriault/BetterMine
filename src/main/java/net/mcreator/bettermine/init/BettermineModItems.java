@@ -12,10 +12,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.bettermine.item.ShittypeelerItem;
 import net.mcreator.bettermine.item.PotatocleanItem;
+import net.mcreator.bettermine.item.PeeleruhdItem;
 import net.mcreator.bettermine.item.PeelerItem;
 import net.mcreator.bettermine.item.NggyuItem;
 import net.mcreator.bettermine.item.KnifeItem;
+import net.mcreator.bettermine.item.ChipfriedItem;
+import net.mcreator.bettermine.item.ChipItem;
 import net.mcreator.bettermine.BettermineMod;
 
 public class BettermineModItems {
@@ -24,7 +28,11 @@ public class BettermineModItems {
 	public static final RegistryObject<Item> ABC_123 = block(BettermineModBlocks.ABC_123);
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 	public static final RegistryObject<Item> PEELEDPOTATO = REGISTRY.register("peeledpotato", () -> new PotatocleanItem());
+	public static final RegistryObject<Item> CHIP = REGISTRY.register("chip", () -> new ChipItem());
+	public static final RegistryObject<Item> CHIPFRIED = REGISTRY.register("chipfried", () -> new ChipfriedItem());
+	public static final RegistryObject<Item> SHITTYPEELER = REGISTRY.register("shittypeeler", () -> new ShittypeelerItem());
 	public static final RegistryObject<Item> PEELER = REGISTRY.register("peeler", () -> new PeelerItem());
+	public static final RegistryObject<Item> PEELERUHD = REGISTRY.register("peeleruhd", () -> new PeeleruhdItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

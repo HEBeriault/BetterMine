@@ -68,6 +68,48 @@
       "path": "~/Chips"
     },
     {
+      "name": "Chip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/item/ChipItem.java",
+          "src/main/resources/assets/bettermine/models/item/chip.json"
+        ]
+      },
+      "path": "~/Chips"
+    },
+    {
+      "name": "Chipfried",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chipfried",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/item/ChipfriedItem.java",
+          "src/main/resources/assets/bettermine/models/item/chipfried.json"
+        ]
+      },
+      "path": "~/Chips"
+    },
+    {
+      "name": "Shittypeeler",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shittypeeler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/item/ShittypeelerItem.java",
+          "src/main/resources/assets/bettermine/models/item/shittypeeler.json"
+        ]
+      },
+      "path": "~/Chips"
+    },
+    {
       "name": "Peeler",
       "type": "item",
       "compiles": true,
@@ -77,6 +119,20 @@
         "files": [
           "src/main/resources/assets/bettermine/models/item/peeler.json",
           "src/main/java/net/mcreator/bettermine/item/PeelerItem.java"
+        ]
+      },
+      "path": "~/Chips"
+    },
+    {
+      "name": "Peeleruhd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peeleruhd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/item/PeeleruhdItem.java",
+          "src/main/resources/assets/bettermine/models/item/peeleruhd.json"
         ]
       },
       "path": "~/Chips"
@@ -104,11 +160,15 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.bettermine.chipfried": "Chipfried",
+      "item.bettermine.peeleruhd": "Peeleruhd",
+      "item.bettermine.chip": "Chip",
+      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
       "item.bettermine.peeler": "Peeler",
+      "item.bettermine.shittypeeler": "Shittypeeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
       "block.bettermine.abc_123": "ABC 1 2 3",
-      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""

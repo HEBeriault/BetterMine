@@ -3,17 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "peeler",
+    "texture": "chip_fried",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Peeler",
+    "name": "Chipfried",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Betterminetab"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

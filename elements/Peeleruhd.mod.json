@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "peeler",
+    "texture": "peeler_uhd",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Peeler",
+    "name": "Peeleruhd",
     "rarity": "COMMON",
     "creativeTabs": [
       {
