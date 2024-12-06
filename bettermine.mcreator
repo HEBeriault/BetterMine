@@ -207,11 +207,11 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:Knife"
-    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:Nggyu"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Knife"
     ]
   },
   "tab_element_order": {},
