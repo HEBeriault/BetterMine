@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "BetterMine",
+    "icon": {
+      "value": "CUSTOM:ABC123"
+    },
+    "showSearch": false
+  }
+}

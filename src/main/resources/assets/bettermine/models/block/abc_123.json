@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bettermine:block/abc123",
+    "up": "bettermine:block/abc123",
+    "north": "bettermine:block/abc123",
+    "east": "bettermine:block/abc123",
+    "south": "bettermine:block/abc123",
+    "west": "bettermine:block/abc123",
+    "particle": "bettermine:block/abc123"
+  },
+  "render_type": "solid"
+}
