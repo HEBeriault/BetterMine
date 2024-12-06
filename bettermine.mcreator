@@ -122,35 +122,35 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:Knife"
-    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:Nggyu"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Knife"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "ru_ru": {
-      "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.chip": "Chip",
-      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
+      "item.bettermine.chipfried": "Chipfried",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "item.bettermine.chip": "Chip",
       "block.bettermine.abc_123": "ABC 1 2 3",
+      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
     },
     "en_us": {
-      "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.chip": "Chip",
-      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
+      "item.bettermine.chipfried": "Chipfried",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "item.bettermine.chip": "Chip",
       "block.bettermine.abc_123": "ABC 1 2 3",
+      "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
