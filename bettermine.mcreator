@@ -44,6 +44,10 @@
       {
         "name": "DamageSystem",
         "children": []
+      },
+      {
+        "name": "Chips",
+        "children": []
       }
     ]
   },
