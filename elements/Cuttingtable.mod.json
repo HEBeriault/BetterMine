@@ -8,7 +8,7 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 3,
+    "renderType": 2,
     "customModelName": "cutting_board:default",
     "rotationMode": 0,
     "enablePitch": false,
@@ -19,17 +19,44 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "connectedSides": true,
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 3.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mz": 1.0,
+        "Mx": 13.0,
+        "My": 1.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 0.0,
+        "mz": 11.0,
+        "Mx": 6.0,
+        "My": 1.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 10.0,
+        "my": 0.0,
+        "mz": 11.0,
+        "Mx": 13.0,
+        "My": 1.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 0.0,
+        "mz": 12.0,
+        "Mx": 13.0,
+        "My": 1.0,
+        "Mz": 14.0,
         "subtract": false
       }
     ],

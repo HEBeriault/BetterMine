@@ -1,19 +1,9 @@
 {
-  "parent": "forge:item/default",
-  "loader": "forge:composite",
-  "children": {
-    "part1": {
-      "loader": "forge:obj",
-      "render_type": "solid",
-      "model": "bettermine:models/item/cutting_board.obj",
-      "emissive_ambient": true,
-      "textures": {
-        "#m_45e3726c-e5a8-28eb-ec21-cce6c110fb27": "bettermine:block/cutting_table"
-      }
-    }
-  },
+  "parent": "bettermine:custom/cutting_board",
   "textures": {
-    "particle": "bettermine:block/cutting_table"
+    "all": "bettermine:block/cutting_table",
+    "particle": "bettermine:block/cutting_table",
+    "0": "bettermine:block/cutting_table"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }
