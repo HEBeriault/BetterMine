@@ -63,8 +63,8 @@
       "registry_name": "peeledpotato",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bettermine/models/item/peeledpotato.json",
-          "src/main/java/net/mcreator/bettermine/item/PotatocleanItem.java"
+          "src/main/java/net/mcreator/bettermine/item/PotatocleanItem.java",
+          "src/main/resources/assets/bettermine/models/item/peeledpotato.json"
         ]
       },
       "path": "~/Groups/Chips"
@@ -77,8 +77,8 @@
       "registry_name": "chip",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bettermine/models/item/chip.json",
-          "src/main/java/net/mcreator/bettermine/item/ChipItem.java"
+          "src/main/java/net/mcreator/bettermine/item/ChipItem.java",
+          "src/main/resources/assets/bettermine/models/item/chip.json"
         ]
       },
       "path": "~/Groups/Chips"
@@ -91,8 +91,8 @@
       "registry_name": "chipfried",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bettermine/models/item/chipfried.json",
-          "src/main/java/net/mcreator/bettermine/item/ChipfriedItem.java"
+          "src/main/java/net/mcreator/bettermine/item/ChipfriedItem.java",
+          "src/main/resources/assets/bettermine/models/item/chipfried.json"
         ]
       },
       "path": "~/Groups/Chips"
@@ -105,8 +105,8 @@
       "registry_name": "peeler",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bettermine/item/PeelerItem.java",
-          "src/main/resources/assets/bettermine/models/item/peeler.json"
+          "src/main/resources/assets/bettermine/models/item/peeler.json",
+          "src/main/java/net/mcreator/bettermine/item/PeelerItem.java"
         ]
       },
       "path": "~/Groups/Chips"
@@ -232,12 +232,12 @@
       "subtitles.nggyu": ""
     },
     "en_us": {
-      "item.bettermine.chipfried": "Chipfried",
-      "item.bettermine.chip": "Chip",
+      "item.bettermine.chipfried": "Chip",
+      "item.bettermine.chip": "Potato Slise",
       "item.bettermine.peeledpotato": "Peeled Potato",
       "item.bettermine.knife": "Knife",
       "block.bettermine.woodentable": "Wooden Table",
-      "block.bettermine.cuttingtable": "Cuttingtable",
+      "block.bettermine.cuttingtable": "Cutting board",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
       "block.bettermine.abc_123": "ABC123",

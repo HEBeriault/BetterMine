@@ -78,7 +78,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Betterminetab"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

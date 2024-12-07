@@ -7,9 +7,13 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Chip",
+    "name": "Potato Slise",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Betterminetab"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

@@ -7,9 +7,13 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Chipfried",
+    "name": "Chip",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Betterminetab"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

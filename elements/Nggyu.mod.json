@@ -6,7 +6,11 @@
     "rarity": "EPIC",
     "texture": "nggyu_disc",
     "description": "Rick Astley - Never Gonna Give You Up",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Betterminetab"
+      }
+    ],
     "specialInformation": {
       "fixedValue": []
     },
