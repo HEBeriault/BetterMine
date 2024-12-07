@@ -1,0 +1,9 @@
+{
+  "parent": "bettermine:custom/wooden_table",
+  "textures": {
+    "all": "bettermine:block/wooden_table",
+    "particle": "bettermine:block/wooden_table",
+    "0": "bettermine:block/wooden_table"
+  },
+  "render_type": "solid"
+}

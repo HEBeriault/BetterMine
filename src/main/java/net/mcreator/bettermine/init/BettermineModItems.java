@@ -30,6 +30,7 @@ public class BettermineModItems {
 	public static final RegistryObject<Item> CHIPFRIED = REGISTRY.register("chipfried", () -> new ChipfriedItem());
 	public static final RegistryObject<Item> PEELER = REGISTRY.register("peeler", () -> new PeelerItem());
 	public static final RegistryObject<Item> CUTTINGTABLE = block(BettermineModBlocks.CUTTINGTABLE);
+	public static final RegistryObject<Item> WOODENTABLE = block(BettermineModBlocks.WOODENTABLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

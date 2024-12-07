@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "bettermine:block/cuttingtable"
+    },
+    "facing=east": {
+      "model": "bettermine:block/cuttingtable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bettermine:block/cuttingtable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bettermine:block/cuttingtable",
+      "y": 270
     }
   }
 }

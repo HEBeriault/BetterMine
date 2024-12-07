@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.bettermine.init.BettermineModTabs;
 import net.mcreator.bettermine.init.BettermineModSounds;
+import net.mcreator.bettermine.init.BettermineModMenus;
 import net.mcreator.bettermine.init.BettermineModItems;
 import net.mcreator.bettermine.init.BettermineModBlocks;
 
@@ -47,6 +48,8 @@ public class BettermineMod {
 		BettermineModItems.REGISTRY.register(bus);
 
 		BettermineModTabs.REGISTRY.register(bus);
+
+		BettermineModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

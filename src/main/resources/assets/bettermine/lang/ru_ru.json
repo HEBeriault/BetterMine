@@ -1,12 +1,14 @@
 {
-  "item.bettermine.knife": "Knife",
-  "block.bettermine.cuttingtable": "Cuttingtable",
   "item.bettermine.chipfried": "Chipfried",
+  "item.bettermine.chip": "Chip",
+  "item.bettermine.peeledpotato": "Peeled Potato",
+  "item.bettermine.knife": "Knife",
+  "block.bettermine.woodentable": "Woodentable",
+  "block.bettermine.cuttingtable": "Cuttingtable",
   "item.bettermine.peeler": "Peeler",
   "item.bettermine.nggyu": "Never Gonna Give You Up",
-  "item.bettermine.chip": "Chip",
   "block.bettermine.abc_123": "ABC 1 2 3",
-  "item.bettermine.peeledpotato": "Peeled Potato",
+  "gui.bettermine.cuttingboardgui.label_cutting_board": "Cutting board",
   "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
   "item_group.bettermine.betterminetab": "BetterMine",
   "subtitles.nggyu": ""

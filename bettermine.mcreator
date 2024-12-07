@@ -11,7 +11,8 @@
           "src/main/java/net/mcreator/bettermine/item/NggyuItem.java",
           "src/main/resources/assets/bettermine/models/item/nggyu.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "ABC123",
@@ -27,7 +28,8 @@
           "src/main/resources/assets/bettermine/models/block/abc_123.json",
           "src/main/java/net/mcreator/bettermine/block/ABC123Block.java"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Betterminetab",
@@ -51,7 +53,7 @@
           "src/main/java/net/mcreator/bettermine/item/KnifeItem.java"
         ]
       },
-      "path": "~/Chips"
+      "path": "~/Groups/Chips"
     },
     {
       "name": "Potatoclean",
@@ -65,7 +67,7 @@
           "src/main/java/net/mcreator/bettermine/item/PotatocleanItem.java"
         ]
       },
-      "path": "~/Chips"
+      "path": "~/Groups/Chips"
     },
     {
       "name": "Chip",
@@ -79,7 +81,7 @@
           "src/main/java/net/mcreator/bettermine/item/ChipItem.java"
         ]
       },
-      "path": "~/Chips"
+      "path": "~/Groups/Chips"
     },
     {
       "name": "Chipfried",
@@ -93,7 +95,7 @@
           "src/main/java/net/mcreator/bettermine/item/ChipfriedItem.java"
         ]
       },
-      "path": "~/Chips"
+      "path": "~/Groups/Chips"
     },
     {
       "name": "Peeler",
@@ -107,7 +109,7 @@
           "src/main/resources/assets/bettermine/models/item/peeler.json"
         ]
       },
-      "path": "~/Chips"
+      "path": "~/Groups/Chips"
     },
     {
       "name": "Cuttingtable",
@@ -117,14 +119,80 @@
       "registry_name": "cuttingtable",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bettermine/block/CuttingtableBlock.java",
-          "src/main/resources/data/bettermine/loot_tables/blocks/cuttingtable.json",
-          "src/main/resources/assets/bettermine/models/block/cuttingtable.json",
           "src/main/resources/assets/bettermine/blockstates/cuttingtable.json",
-          "src/main/resources/assets/bettermine/models/item/cuttingtable.json"
+          "src/main/resources/data/bettermine/loot_tables/blocks/cuttingtable.json",
+          "src/main/resources/assets/bettermine/models/item/cuttingtable.json",
+          "src/main/java/net/mcreator/bettermine/block/CuttingtableBlock.java",
+          "src/main/resources/assets/bettermine/models/block/cuttingtable.json"
         ]
       },
-      "path": "~/Crafting tables/Cutting table"
+      "path": "~/Groups/Crafting tables/Cutting table"
+    },
+    {
+      "name": "Woodentable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodentable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettermine/loot_tables/blocks/woodentable.json",
+          "src/main/resources/assets/bettermine/blockstates/woodentable.json",
+          "src/main/resources/assets/bettermine/models/block/woodentable.json",
+          "src/main/resources/assets/bettermine/models/item/woodentable.json",
+          "src/main/java/net/mcreator/bettermine/block/WoodentableBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Cuttingboardgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttingboardgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/client/gui/CuttingboardguiScreen.java",
+          "src/main/java/net/mcreator/bettermine/world/inventory/CuttingboardguiMenu.java"
+        ]
+      },
+      "path": "~/Groups/Crafting tables/Cutting table"
+    },
+    {
+      "name": "CuttingtableOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttingtable_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/procedures/CuttingtableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Groups/Crafting tables/Cutting table"
     }
   ],
   "variable_elements": [],
@@ -149,27 +217,31 @@
   "tab_element_order": {},
   "language_map": {
     "ru_ru": {
-      "item.bettermine.knife": "Knife",
-      "block.bettermine.cuttingtable": "Cuttingtable",
       "item.bettermine.chipfried": "Chipfried",
+      "item.bettermine.chip": "Chip",
+      "item.bettermine.peeledpotato": "Peeled Potato",
+      "item.bettermine.knife": "Knife",
+      "block.bettermine.woodentable": "Woodentable",
+      "block.bettermine.cuttingtable": "Cuttingtable",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
-      "item.bettermine.chip": "Chip",
       "block.bettermine.abc_123": "ABC 1 2 3",
-      "item.bettermine.peeledpotato": "Peeled Potato",
+      "gui.bettermine.cuttingboardgui.label_cutting_board": "Cutting board",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
     },
     "en_us": {
-      "item.bettermine.knife": "Knife",
-      "block.bettermine.cuttingtable": "Cuttingtable",
       "item.bettermine.chipfried": "Chipfried",
+      "item.bettermine.chip": "Chip",
+      "item.bettermine.peeledpotato": "Peeled Potato",
+      "item.bettermine.knife": "Knife",
+      "block.bettermine.woodentable": "Wooden Table",
+      "block.bettermine.cuttingtable": "Cuttingtable",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
-      "item.bettermine.chip": "Chip",
-      "block.bettermine.abc_123": "ABC 1 2 3",
-      "item.bettermine.peeledpotato": "Peeled Potato",
+      "block.bettermine.abc_123": "ABC123",
+      "gui.bettermine.cuttingboardgui.label_cutting_board": "Cutting board",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
       "subtitles.nggyu": ""
@@ -179,23 +251,36 @@
     "name": "~",
     "children": [
       {
-        "name": "DamageSystem",
-        "children": []
-      },
-      {
-        "name": "Chips",
-        "children": []
-      },
-      {
         "name": "GUI",
         "children": []
       },
       {
-        "name": "Crafting tables",
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Groups",
         "children": [
           {
-            "name": "Cutting table",
+            "name": "Chips",
             "children": []
+          },
+          {
+            "name": "DamageSystem",
+            "children": []
+          },
+          {
+            "name": "Crafting tables",
+            "children": [
+              {
+                "name": "Cutting table",
+                "children": []
+              }
+            ]
           }
         ]
       }
