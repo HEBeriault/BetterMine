@@ -49,6 +49,8 @@ public class CuttingboardguiScreen extends AbstractContainerScreen<Cuttingboardg
 
 		guiGraphics.blit(new ResourceLocation("bettermine:textures/screens/knife_ghost.png"), this.leftPos + 8, this.topPos + 16, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("bettermine:textures/screens/cutting_table.png"), this.leftPos + 37, this.topPos + 5, 0, 0, 64, 64, 64, 64);
+
 		RenderSystem.disableBlend();
 	}
 

@@ -153,8 +153,8 @@
       "registry_name": "cuttingboardgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bettermine/client/gui/CuttingboardguiScreen.java",
-          "src/main/java/net/mcreator/bettermine/world/inventory/CuttingboardguiMenu.java"
+          "src/main/java/net/mcreator/bettermine/world/inventory/CuttingboardguiMenu.java",
+          "src/main/java/net/mcreator/bettermine/client/gui/CuttingboardguiScreen.java"
         ]
       },
       "path": "~/Groups/Crafting tables/Cutting table"
@@ -207,11 +207,11 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:Knife"
-    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:Nggyu"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Knife"
     ]
   },
   "tab_element_order": {},
