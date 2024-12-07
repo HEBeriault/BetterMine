@@ -50,7 +50,7 @@
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
+    "isMeat": true,
     "isAlwaysEdible": true,
     "animation": "none"
   }

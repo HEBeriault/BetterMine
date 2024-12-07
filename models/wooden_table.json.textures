@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "wooden_table"
+        "1": "wooden_table"
       },
       "name": "default"
     }
