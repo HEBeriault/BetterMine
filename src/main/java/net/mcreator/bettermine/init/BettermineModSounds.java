@@ -16,4 +16,5 @@ import net.mcreator.bettermine.BettermineMod;
 public class BettermineModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, BettermineMod.MODID);
 	public static final RegistryObject<SoundEvent> NGGYU = REGISTRY.register("nggyu", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bettermine", "nggyu")));
+	public static final RegistryObject<SoundEvent> CUTTING = REGISTRY.register("cutting", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bettermine", "cutting")));
 }

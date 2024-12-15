@@ -23,7 +23,7 @@
           "disablePickup": {
             "fixedValue": false
           },
-          "dropItemsWhenNotBound": false,
+          "dropItemsWhenNotBound": true,
           "x": 133,
           "y": 52
         }
@@ -89,6 +89,19 @@
           "use1Xscale": false,
           "x": 163,
           "y": 42
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_knife",
+          "image": "knife.png",
+          "hoveredImage": "knife.png",
+          "onClick": {
+            "name": "CuttingtableButtonClicked"
+          },
+          "x": 187,
+          "y": 72
         }
       }
     ],

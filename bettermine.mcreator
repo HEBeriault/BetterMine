@@ -153,8 +153,9 @@
       "registry_name": "cuttingboardgui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/bettermine/client/gui/CuttingboardguiScreen.java",
           "src/main/java/net/mcreator/bettermine/world/inventory/CuttingboardguiMenu.java",
-          "src/main/java/net/mcreator/bettermine/client/gui/CuttingboardguiScreen.java"
+          "src/main/java/net/mcreator/bettermine/network/CuttingboardguiButtonMessage.java"
         ]
       },
       "path": "~/Groups/Crafting tables/Cutting table"
@@ -193,6 +194,41 @@
         ]
       },
       "path": "~/Groups/Crafting tables/Cutting table"
+    },
+    {
+      "name": "CuttingtableButtonClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttingtable_button_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/procedures/CuttingtableButtonClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Groups/Crafting tables/Cutting table"
     }
   ],
   "variable_elements": [],
@@ -203,6 +239,14 @@
         "jocofullinterview41"
       ],
       "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "cutting",
+      "files": [
+        "cutting"
+      ],
+      "category": "neutral",
       "subtitle": ""
     }
   ],
@@ -225,6 +269,7 @@
       "block.bettermine.cuttingtable": "Cutting board",
       "item.bettermine.peeler": "Peeler",
       "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "subtitles.cutting": "",
       "block.bettermine.abc_123": "ABC123",
       "gui.bettermine.cuttingboardgui.label_cutting_board": "Cutting board",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",

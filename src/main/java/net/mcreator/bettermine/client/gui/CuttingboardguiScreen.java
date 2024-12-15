@@ -6,9 +6,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.bettermine.world.inventory.CuttingboardguiMenu;
+import net.mcreator.bettermine.network.CuttingboardguiButtonMessage;
+import net.mcreator.bettermine.BettermineMod;
 
 import java.util.HashMap;
 
@@ -19,6 +22,7 @@ public class CuttingboardguiScreen extends AbstractContainerScreen<Cuttingboardg
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	ImageButton imagebutton_knife;
 
 	public CuttingboardguiScreen(CuttingboardguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -71,5 +75,13 @@ public class CuttingboardguiScreen extends AbstractContainerScreen<Cuttingboardg
 	@Override
 	public void init() {
 		super.init();
+		imagebutton_knife = new ImageButton(this.leftPos + 61, this.topPos + 35, 16, 16, 0, 0, 16, new ResourceLocation("bettermine:textures/screens/atlas/imagebutton_knife.png"), 16, 32, e -> {
+			if (true) {
+				BettermineMod.PACKET_HANDLER.sendToServer(new CuttingboardguiButtonMessage(0, x, y, z));
+				CuttingboardguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_knife", imagebutton_knife);
+		this.addRenderableWidget(imagebutton_knife);
 	}
 }
