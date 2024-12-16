@@ -22,6 +22,7 @@ public class CuttingboardguiScreen extends AbstractContainerScreen<Cuttingboardg
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	ImageButton imagebutton_cutting_table;
 	ImageButton imagebutton_knife;
 
 	public CuttingboardguiScreen(CuttingboardguiMenu container, Inventory inventory, Component text) {
@@ -53,8 +54,6 @@ public class CuttingboardguiScreen extends AbstractContainerScreen<Cuttingboardg
 
 		guiGraphics.blit(new ResourceLocation("bettermine:textures/screens/knife_ghost.png"), this.leftPos + 8, this.topPos + 16, 0, 0, 16, 16, 16, 16);
 
-		guiGraphics.blit(new ResourceLocation("bettermine:textures/screens/cutting_table.png"), this.leftPos + 37, this.topPos + 5, 0, 0, 64, 64, 64, 64);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -75,10 +74,18 @@ public class CuttingboardguiScreen extends AbstractContainerScreen<Cuttingboardg
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_knife = new ImageButton(this.leftPos + 61, this.topPos + 35, 16, 16, 0, 0, 16, new ResourceLocation("bettermine:textures/screens/atlas/imagebutton_knife.png"), 16, 32, e -> {
+		imagebutton_cutting_table = new ImageButton(this.leftPos + 42, this.topPos + 8, 64, 64, 0, 0, 64, new ResourceLocation("bettermine:textures/screens/atlas/imagebutton_cutting_table.png"), 64, 128, e -> {
 			if (true) {
 				BettermineMod.PACKET_HANDLER.sendToServer(new CuttingboardguiButtonMessage(0, x, y, z));
 				CuttingboardguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_cutting_table", imagebutton_cutting_table);
+		this.addRenderableWidget(imagebutton_cutting_table);
+		imagebutton_knife = new ImageButton(this.leftPos + 65, this.topPos + 37, 16, 16, 0, 0, 16, new ResourceLocation("bettermine:textures/screens/atlas/imagebutton_knife.png"), 16, 32, e -> {
+			if (true) {
+				BettermineMod.PACKET_HANDLER.sendToServer(new CuttingboardguiButtonMessage(1, x, y, z));
+				CuttingboardguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_knife", imagebutton_knife);

@@ -153,9 +153,9 @@
       "registry_name": "cuttingboardgui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/bettermine/network/CuttingboardguiButtonMessage.java",
           "src/main/java/net/mcreator/bettermine/client/gui/CuttingboardguiScreen.java",
-          "src/main/java/net/mcreator/bettermine/world/inventory/CuttingboardguiMenu.java",
-          "src/main/java/net/mcreator/bettermine/network/CuttingboardguiButtonMessage.java"
+          "src/main/java/net/mcreator/bettermine/world/inventory/CuttingboardguiMenu.java"
         ]
       },
       "path": "~/Groups/Crafting tables/Cutting table"
@@ -229,6 +229,38 @@
         ]
       },
       "path": "~/Groups/Crafting tables/Cutting table"
+    },
+    {
+      "name": "BeyondTheEdge",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_the_edge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettermine/advancements/beyond_the_edge.json"
+        ]
+      },
+      "path": "~/Groups/Crafting tables/Cutting table"
+    },
+    {
+      "name": "CuttingboardguiWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttingboardgui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettermine/procedures/CuttingboardguiWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Groups/Crafting tables/Cutting table"
     }
   ],
   "variable_elements": [],
@@ -260,6 +292,24 @@
   },
   "tab_element_order": {},
   "language_map": {
+    "ru_ru": {
+      "item.bettermine.chipfried": "Чипс",
+      "item.bettermine.chip": "Слайс картошки",
+      "item.bettermine.peeledpotato": "Очищенная картошка",
+      "item.bettermine.knife": "Нож",
+      "block.bettermine.woodentable": "Деревянній стол",
+      "block.bettermine.cuttingtable": "Разделочная доска",
+      "item.bettermine.peeler": "Чистилка",
+      "item.bettermine.nggyu": "Never Gonna Give You Up",
+      "subtitles.cutting": "",
+      "block.bettermine.abc_123": "АБВ123",
+      "advancements.beyond_the_edge.title": "За Гранью",
+      "gui.bettermine.cuttingboardgui.label_cutting_board": "Разделочная доска",
+      "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
+      "item_group.bettermine.betterminetab": "BetterMine",
+      "subtitles.nggyu": "",
+      "advancements.beyond_the_edge.descr": "Че за х"
+    },
     "en_us": {
       "item.bettermine.chipfried": "Chip",
       "item.bettermine.chip": "Potato Slise",
@@ -271,10 +321,12 @@
       "item.bettermine.nggyu": "Never Gonna Give You Up",
       "subtitles.cutting": "",
       "block.bettermine.abc_123": "ABC123",
+      "advancements.beyond_the_edge.title": "Beyond The Edge",
       "gui.bettermine.cuttingboardgui.label_cutting_board": "Cutting board",
       "item.bettermine.nggyu.desc": "Rick Astley - Never Gonna Give You Up",
       "item_group.bettermine.betterminetab": "BetterMine",
-      "subtitles.nggyu": ""
+      "subtitles.nggyu": "",
+      "advancements.beyond_the_edge.descr": "Excuse me, what the f"
     }
   },
   "foldersRoot": {
