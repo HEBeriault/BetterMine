@@ -66,6 +66,10 @@ public class CuttingboardguiButtonMessage {
 
 			CuttingtableButtonClickedProcedure.execute(world, x, y, z, entity);
 		}
+		if (buttonID == 1) {
+
+			CuttingtableButtonClickedProcedure.execute(world, x, y, z, entity);
+		}
 	}
 
 	@SubscribeEvent

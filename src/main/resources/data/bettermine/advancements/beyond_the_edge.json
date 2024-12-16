@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:air"
+    },
+    "title": {
+      "translate": "advancements.beyond_the_edge.title"
+    },
+    "description": {
+      "translate": "advancements.beyond_the_edge.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beyond_the_edge_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
